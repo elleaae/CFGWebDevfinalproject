@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(112, 193, 231);
+}
+
+.carousel-item::after {
+    display: flex;
+}
+
+.carousel-inner {
+    flex: 50%;
+    padding: 5px;
+}
