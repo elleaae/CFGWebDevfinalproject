@@ -1,6 +1,105 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(112, 193, 231);
 }
+
+form{
+    margin: 0x 5px;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+.subscribeform{
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn btn-primary{
+    display: block;
+    align-items: center;
+    padding-top: 15px;
+}
+.factphp{
+   display: flex;
+   flex: 50%;
+   padding: 5px;
+}
+#simple-list-item-1,#simple-list-item-2, #simple-list-item-3, #simple-list-item-4, #simple-list-item-5{
+    background-color: aliceblue;
+}
+.col-4{
+    overflow: auto;
+}
+.p-1:link{
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+}
+.p-1:visited{
+    text-decoration: none;
+    background-color: azure;
+    color: black;
+}
+.p-1:hover{
+    text-decoration: underline;
+    background-color: rgb(207, 255, 209);
+    color: black
+}
+.p-1:active{
+    text-decoration: underline;
+    background-color: aliceblue;
+    color: black;
+}
+
+marquee{
+text-align: center;
+width: 100%;
+font-size: 30px;
+}
+
+.column-homepage {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+  @media screen and (max-width: 650px) {
+    .column-homepage {
+      width: 100%;
+      display: block;
+    }
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+.container-homepage {
+    padding: 0 16px;
+  }
+
+.title-homepage{
+    font: bold;
+    font-size: 50px ;
+  }
 
 .carousel-item::after {
     display: flex;
@@ -10,3 +109,4 @@ body {
     flex: 50%;
     padding: 5px;
 }
+ 
