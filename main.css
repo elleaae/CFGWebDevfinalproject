@@ -17,6 +17,11 @@ footer{
     text-align: center;
 }
 
+.bar {
+    margin-top: -25px;
+    padding: -25px;
+}
+    
 h1{
     text-align: center;
 }
